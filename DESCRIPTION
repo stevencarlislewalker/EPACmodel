@@ -19,5 +19,6 @@ Imports:
     here
 Suggests: 
     testthat (>= 3.0.0)
-Remotes: canmod/macpan2@v0.0.3
+Remotes: canmod/macpan2
+Remotes: canmod/macpan2
 Config/testthat/edition: 3
