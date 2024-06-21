@@ -1,24 +1,30 @@
 Package: EPACmodel
-Title: Use the Early Pandemic Age-structured Compartmental (EPAC) model.
-Version: 1.0.0
+Title: Use the Early Pandemic Age-structured Compartmental (EPAC) model
+Version: 1.1.2
 Authors@R: c( 
     person("Irena", "Papst", , "irena.papst@phac-aspc.gc.ca", role = c("aut", "cre")),
     person("Michael", "WZ Li", , role = c("aut"))) 
 Description: Simulate versions of the EPAC model.
 License: MIT + file LICENSE
+URL: https://phac-nml-phrsd.github.io/EPACmodel, https://github.com/phac-nml-phrsd/EPACmodel
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Imports: 
     macpan2,
     fs,
-    readr,
-    dplyr (>= 1.1.0),
-    tidyr,
-    tibble,
     here
 Suggests: 
-    testthat (>= 3.0.0)
-Remotes: canmod/macpan2
-Remotes: canmod/macpan2
+    dplyr (>= 1.1.0),
+    ggplot2,
+    knitr,
+    readr,
+    rmarkdown,
+    scales,
+    stringr,
+    testthat (>= 3.0.0),
+    tibble,
+    tidyr
+Remotes: canmod/macpan2@98fb990
 Config/testthat/edition: 3
+VignetteBuilder: knitr
